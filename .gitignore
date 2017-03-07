@@ -1,3 +1,4 @@
+*.db
 odin/errbot.log
 odin/secrets.py
 */__pycache__/*
