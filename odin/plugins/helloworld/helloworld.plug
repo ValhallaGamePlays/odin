@@ -1,0 +1,10 @@
+[Core]
+Name = helloworld
+Module = helloworld
+
+[Documentation]
+Description = Twisted copypasta hello world script from errbot.io
+
+[Python]
+Version = 2+
+
