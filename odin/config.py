@@ -4,6 +4,7 @@ from os import path
 
 from odin.secrets import (
     ACCESS_CONTROLS,
+    BACKEND,
     BOT_IDENTITY,
     BOT_ADMINS,
     CHATROOM_PRESENCE,
@@ -18,31 +19,6 @@ from odin.secrets import (
 
 here = path.abspath(path.dirname(__file__))
 
-
-# BACKEND selection.
-# This configures the type of chat server you wish to use Errbot with.
-#
-# The current choices:
-
-# Debug backends to test your plugins manually:
-# 'Text'     - on the text console
-# 'Graphic'  - in a GUI window
-
-# Commercial backends:
-# 'Campfire' - see https://campfirenow.com/ (follow instructions from https://github.com/errbotio/err-backend-campfire)
-# 'Hipchat'  - see https://www.hipchat.com/
-# 'Slack'    - see https://slack.com/
-# 'Gitter'   - see https://gitter.im/ (follow instructions from https://github.com/errbotio/err-backend-gitter)
-
-# Open protocols:
-# 'TOX'      - see https://tox.im/ (follow instructions from https://github.com/errbotio/err-backend-tox)
-# 'IRC'      - for classic IRC or bridged services like https://gitter.im
-# 'XMPP'     - the Extensible Messaging and Presence Protocol (https://xmpp.org/)
-# 'Telegram' - cloud-based mobile and desktop messaging app with a focus
-#              on security and speed. (https://telegram.org/)
-
-BACKEND = 'XMPP'
-# BACKEND = 'Text'  # for debugging
 
 # You might wish to have your bot respond by being called with certain
 # names, rather than the BOT_PREFIX above. This option allows you to
