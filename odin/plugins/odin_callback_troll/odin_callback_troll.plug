@@ -1,9 +1,0 @@
-[Core]
-Name = odin_callback_troll
-Module = odin_callback_troll
-
-[Documentation]
-Description = Twisted copypasta and amalgamation of callback bot
-
-[Python]
-Version = 2+
