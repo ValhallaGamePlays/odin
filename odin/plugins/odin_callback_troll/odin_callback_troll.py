@@ -17,11 +17,11 @@ class PluginExample(BotPlugin):
                     if mess.body.find('call of duty') != -1:
                                      self.send(
                                              mess.frm,
-                                              "Worst VG series ever BTW..."
+                                              "Worst VG series ever BTW...",
                                     )
                 
                     if mess.body.find('shit') != -1:
                                      self.send(
-                                             mess.frm
-                                              "fuck"
+                                             mess.frm,
+                                              "fuck",
                                     )          
