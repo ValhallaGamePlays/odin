@@ -1,0 +1,9 @@
+[Core]
+Name = troll
+Module = troll
+
+[Documentation]
+Description = Twisted copypasta and amalgamation of callback bot
+
+[Python]
+Version = 2+
